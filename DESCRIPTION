@@ -3,8 +3,11 @@ Type: Package
 Title: some Rstudio insert addins
 Version: 0.1.0
 Author: Who wrote it
-Maintainer: lvyulin@pku.edu.cn
+Maintainer: Yulin Lyu <lvyulin@pku.edu.cn>
 Description: some Rstudio insert addins
 License: GPL3
 Encoding: UTF-8
 LazyData: true
+Imports: 
+    rstudioapi
+RoxygenNote: 6.1.1

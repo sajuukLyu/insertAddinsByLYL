@@ -1,5 +1,10 @@
 Name: Insert %<>%
 Description: Inserts `%<>%` at the cursor position.
-Binding: insertInAddin
+Binding: insertLeftPipeAddin
+Interactive: false
+
+Name: Insert function template
+Description: Inserts `function(x) {x}` at the cursor position.
+Binding: insertFuncTempAddin
 Interactive: false
 
