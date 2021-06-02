@@ -1,0 +1,6 @@
+
+insertLeftPipeAddin <- function() {
+  rstudioapi::insertText(" %<>% ")
+}
+
+
