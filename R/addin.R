@@ -22,7 +22,12 @@ insertFuncTempAddin <- function() {
 #' Call this function as an addin to insert a python code cell.
 #'
 #' @export
+#'
+#' @import rstudioapi
 insertPyCellAddin <- function() {
-  rstudioapi::insertText("```{python}\n\n```")
+  adc <- getActiveDocumentContext()
+  insertText("```{python}\n\n\n\n```")
+  pos <- document_position(adc$selection[[1]]$range$start[1] + 2, 1)
+  setCursorPosition(pos)
 }
 

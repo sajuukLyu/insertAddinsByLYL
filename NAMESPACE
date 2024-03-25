@@ -3,3 +3,4 @@
 export(insertFuncTempAddin)
 export(insertLeftPipeAddin)
 export(insertPyCellAddin)
+import(rstudioapi)
