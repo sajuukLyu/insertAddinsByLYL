@@ -8,3 +8,8 @@ Description: Inserts `function(x) {x}` at the cursor position.
 Binding: insertFuncTempAddin
 Interactive: false
 
+Name: Insert python cell
+Description: Inserts a python code cell.
+Binding: insertPyCellAddin
+Interactive: false
+

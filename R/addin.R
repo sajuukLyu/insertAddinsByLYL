@@ -17,4 +17,12 @@ insertFuncTempAddin <- function() {
   rstudioapi::insertText("function(x) {x}")
 }
 
+#' Insert python cell
+#'
+#' Call this function as an addin to insert a python code cell.
+#'
+#' @export
+insertPyCellAddin <- function() {
+  rstudioapi::insertText("```{python}\n\n```")
+}
 
